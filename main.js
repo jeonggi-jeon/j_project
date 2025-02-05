@@ -71,7 +71,7 @@ function reset() {
   userInput.value = "";
   resultArea.textContent = "결과 값이 여기 나옵니다";
   chanceArea.textContent = "남은기회:5번";
-
+  playButton.disabled=false;
   PickRandomNum();
 }
 PickRandomNum();
